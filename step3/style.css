@@ -1,0 +1,129 @@
+
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+body{
+    background-color: black;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url("./wumpus/cave-background.jpg");
+    background-size: cover;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: #3f3622;
+    justify-content: center;
+    padding: 15px;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+div.article{
+    background-color: white;
+}
+div.image{
+    padding: 20px;
+}
+figure img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+figure p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.article p {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+div.rooms{
+    text-align: center;
+}
+div.room {
+    width: 200px;
+    display: inline-block;
+}
+div.room a{
+    color: #3f3622;
+}
+header nav {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+/*
+.links{
+    list-style: none;
+    text-align: right;
+}
+*/
+
+nav p{
+    display: inline-block;
+    padding: 0 1px;
+}
+
+nav a{
+    color: white;
+}
+
+nav a:visited{
+    color: gray;
+}
+
+
+.wel_page{
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+}
+.wel_page p{
+    padding: 10px;
+}
+.wel_page p a {
+    color: #3f3622;
+}
+div.instructions p{
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+div.instructions p{
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+div.instr {
+    text-align: center;
+}
+/*.instr li{
+    display: inline-block;
+}*/
+div.instr span.x{
+    font-size: 25px;
+}
+div.instr span.y{
+    font-size: 30px;
+    font-style: italic;
+}

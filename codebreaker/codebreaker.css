@@ -1,0 +1,97 @@
+body {
+    background-color: #18453B;
+    margin-top: 0.5em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto 0 auto;
+    background-color: beige;
+}
+
+form h1 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+form h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+form p {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+p.code {
+    width: 100%;
+    background-color: white;
+    padding: 0.5em 0.25em;
+    box-sizing: border-box;
+    border: thin solid black;
+    font-family: monospace;
+}
+
+table {
+    margin: 1em auto 0 auto;
+    border: 0;
+    border-collapse: collapse;
+}
+
+table.game td {
+    padding: 0.25em 1em 0.25em 0.25em;
+	border: 0;
+	text-align: left;
+    font-size: 1.5em;
+    font-family: monospace;
+}
+
+table.picker {
+    text-align: center;
+    margin-top: 2em;
+}
+
+table.picker td {
+    padding: 0 0.25em;
+}
+
+form input[type="submit"] {
+    font-size: 1.0em;
+    width: 7em;
+}
+
+form button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+img {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+p.gripe {
+    color: red;
+    font-style: italic;
+}
+
+p.hint {
+    color: darkblue;
+}
+
+p.end {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+p.solution {
+    margin-top: 35em;
+    text-align: center;
+}
